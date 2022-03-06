@@ -2,7 +2,7 @@
 
 .info{
       color: red;
-      background-color: pink;
+
       font-size:2 em;
       }
       
@@ -12,3 +12,8 @@
       font-size:2 em;
       }      
       
+html{
+  /*設定網頁背景色*/
+  background-color: #f6d2cd;
+  
+}
