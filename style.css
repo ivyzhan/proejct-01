@@ -13,14 +13,14 @@ html {
 button {
  width: 140px;
  height: 45px;
- font-size: 23px;
+ font-size: 20px;
  cursor: pointer;
  border: none;
  outline: none;
  background: transparent;
  color: white;
  font-family: 'Times New Roman', Times, serif;
- font-weight: 700;
+ font-weight: 200;
  position: relative;
  transition: all 0.5s;
  z-index: 1;
