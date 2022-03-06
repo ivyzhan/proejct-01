@@ -11,8 +11,8 @@ html {
 
 /* From cssbuttons.io by @meermubashar */
 button {
- width: 140px;
- height: 45px;
+ width: 100px;
+ height: 20px;
  font-size: 20px;
  cursor: pointer;
  border: none;
