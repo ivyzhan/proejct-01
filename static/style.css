@@ -1,0 +1,52 @@
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+html {
+  background-color: #f6d2cd;
+}
+
+/* From cssbuttons.io by @meermubashar */
+button {
+ width: 100px;
+ height: 20px;
+ font-size: 15px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 200;
+ position: relative;
+ transition: all 0.5s;
+ z-index: 1;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: black;
+ z-index: -1;
+ transition: all 0.5s;
+}
+
+button:hover::before {
+ width: 100%;
+}
+
+button:hover {
+ color: f68d81;
+}
+
+button:active:before {
+ background: #b9b9b9;
+
+}
