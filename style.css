@@ -43,7 +43,7 @@ button:hover::before {
 }
 
 button:hover {
- color: red;
+ color: f68d81;
 }
 
 button:active:before {
